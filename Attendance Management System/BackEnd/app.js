@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://harshith:keori69@cluster0.pmkoubt.mongodb.net/Cluster0?retryWrites=true&w=majority")
+mongoose.connect("")
 .then(()=>app.listen(6969))
 .then(()=>console.log('connected'))
 .catch((err)=>console.log(err))
